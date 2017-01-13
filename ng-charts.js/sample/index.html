@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+<meta charset="UTF-8">
+<title>ng-charts.js</title>
+<link rel="stylesheet" type="text/css"  href="css/index.css" />
+</head>
+<body>
+	<div ng-controller="demoController" class="demo">
+		<canvas ng-charts id="ngChartsTest" type="charts.type" label="charts.label" labels="charts.labels" data="charts.data"></canvas>
+	</div>
+</body>
+<script type="text/javascript" src="../bower_components/chart.js/dist/Chart.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript" src="../src/ng-charts.js"></script>
+</html>
